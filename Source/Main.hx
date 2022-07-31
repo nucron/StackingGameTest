@@ -27,8 +27,8 @@ class Main extends Sprite {
 	private var PhysicsDebug:Sprite;
 	private var World:B2World;
 
-	private var stageWidth = Lib.current.stage.stageWidth;
-	private var stageHeight = Lib.current.stage.stageHeight;
+	private var stageWidth:Int = Lib.current.stage.stageWidth;
+	private var stageHeight:Int = Lib.current.stage.stageHeight;
 
 	private static var WALL_WIDTH:Int = 20;
 
