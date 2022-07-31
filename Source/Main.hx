@@ -89,9 +89,7 @@ class Main extends Sprite {
 		textField.y = 100;
 		textField.width = 500;
 
-		textField.text = "Use LEFT and RIGHT arrows to move block spawner \n
-			Press SPACE BAR to spawn a block \n
-			Try to stack blocks as high as you can \n";
+		textField.text = "Use LEFT and RIGHT arrows to move block spawner \nPress SPACE BAR to spawn a block \nTry to stack blocks as high as you can";
 
 		var nameFormat = new TextFormat("BroshK", 12, 0xB6B1B1);
 		var name = new TextField();
